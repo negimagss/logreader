@@ -36,11 +36,15 @@ This Java program parses AWS VPC flow log data and maps each log entry to a tag 
    javac -d . LogParser.java
    java illumio.LogParser
 
-### Run the package using Runnable Jar:
+### Running the package using Runnable Jar:
 - Navigate to RunnablePackage folder
 - If using mac, run the bas script run_illumio_logger.sh, for windows run run_illumio_logger.bat
 - Place your logs in resources/inputFiles folder
 - Place the csv file on  resources/inputCsvFiles folder
 - Run the program
 - Result file will be generated in Output folder
+
+### Tests:
+- All test files are in the package
+- Tested with single and multiple log files
   
