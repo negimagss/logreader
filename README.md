@@ -31,7 +31,8 @@ This Java program parses AWS VPC flow log data and maps each log entry to a tag 
 ### Steps:
 1. Place the flow log `.txt` files in the `resources/inputFiles` directory.
 2. Place the lookup `.csv` files in the `resources/inputCsvFiles` directory.
-3. Compile and run the program:
+3. Main java file is LogRunner.java under src/illumio/ folder. 
+4. Compile and run the program:
    ```bash
    javac -d . LogRunner.java
    java illumio.LogRunner
