@@ -33,8 +33,8 @@ This Java program parses AWS VPC flow log data and maps each log entry to a tag 
 2. Place the lookup `.csv` files in the `resources/inputCsvFiles` directory.
 3. Compile and run the program:
    ```bash
-   javac -d . LogParser.java
-   java illumio.LogParser
+   javac -d . LogRunner.java
+   java illumio.LogRunner
 
 ### Running the package using Runnable Jar:
 - Navigate to RunnablePackage folder
